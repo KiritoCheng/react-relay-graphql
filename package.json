@@ -1,0 +1,47 @@
+{
+  "name": "react-relay-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-relay": "^1.7.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-relay": "^0.5.5",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-relay": "^1.7.0",
+    "relay-compiler": "^1.7.0",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./server.js",
+    "relay": "relay-compiler --src ./src --schema ./schema.graphql",
+    "update-schema": "babel-node ./scripts/updateSchema.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://KiritoCheng:Zheng19960917@github.com/KiritoCheng/react-relay-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiritoCheng/react-relay-graphql/issues"
+  },
+  "homepage": "https://github.com/KiritoCheng/react-relay-graphql#readme"
+}
