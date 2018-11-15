@@ -1,0 +1,7 @@
+type Hello{
+    hello:String
+}
+
+type Query {
+    hello:Hello
+}
